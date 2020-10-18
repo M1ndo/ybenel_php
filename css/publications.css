@@ -1,0 +1,195 @@
+#nav_publications{
+	font-size: 105%;
+	font-style: italic;
+}
+
+section{
+	font-size: 95%;
+	max-width: 1400px;
+}
+
+.header_title {
+	margin-top: 10px;
+}
+
+.paper_list {
+	counter-reset: li;
+	display: inline-block;
+	margin-top: -10px;
+	padding-right: 15px;
+	margin-left: -20px;
+}
+
+.paper_list li {
+	margin-top: 5px;
+	border-width: 1px;
+	border-bottom-style: dashed;
+}
+
+.paper_list li:first-of-type {
+	border-width: 1px;
+	border-top-style: dashed;
+	padding-top: 5px;
+}
+
+/* paper title */
+.paper_title{
+	margin-left: 10px;
+	color: black;
+	font-size: 105%;
+}
+
+/* author */
+.author{
+	color:black;
+	margin-top: 5px;
+	display: block;
+	margin-bottom: 5px;
+}
+
+/* me author */
+.meAuthor{
+	font-weight: bold;
+}
+
+/* publisher abbrevation */
+.publisher_abbr{
+	color: DarkMagenta;
+}
+
+/* add [] */
+.publisher_abbr::before{
+	content: "[";
+	color: DarkOliveGreen;
+	font-weight: bold;
+}
+.publisher_abbr::after{
+	content: "] ";
+	color: DarkOliveGreen;
+	font-weight: bold;
+}
+
+/* publisher */
+.publisher{
+	display: inline-block;
+	padding-bottom: 5px;
+}
+
+.block_right {
+	margin-left: 0px;
+	float: right;
+	width: 180px;
+	height:60px;
+	border-right-width: 1px;
+	border-right-style: dashed;
+}
+
+.block_narrow_right{
+	margin-left: 0px;
+	padding-right: 10px;
+	float: right;
+	width: 180px;
+	height: 40px;
+	border-right-width: 1px;
+	border-right-style: dashed;
+}
+
+.block_very_narrow_right {
+	margin-left: 0px;
+	padding-right: 10px;
+	float: right;
+	width: 1px;
+	height: 40px;
+	border-right-width: 1px;
+	border-right-style: dashed;
+}
+
+.citation_label{
+	font-size: 80%;
+	margin-bottom: 2px;
+}
+
+.citation_div{
+	padding-right: 5px;
+	padding-top: 10px;
+	text-align: center;
+	float: right;
+	width: 50px;
+}
+
+.citation_count {
+	font-size: 150%;
+	display: inline-block;
+}
+
+.citation_label {
+	margin-top: 0px;
+}
+
+.download {
+	margin-top: 20px;
+}
+
+.download > * {
+	float: right;
+}
+
+.publisher, .page_number, .conference_location, .date, .vol_number, .issue_number, .doi{
+	font-size: 95%;
+	color: black;
+	vertical-align: text-top;
+}
+
+.review_date, .member_date{
+	color: Black;
+}
+
+.page_number::before{
+	content: ", pp. ";
+	font-style: italic;
+}
+
+.vol_number::before{
+	content: ", vol. ";
+	font-style: italic;
+}
+
+.issue_number::before{
+	content: ", no. ";
+	font-style: italic;
+}
+
+.doi::before{
+	content: ", DOI: ";
+	font-style: italic;
+}
+
+.conference_location::before, .date::before{
+	content: ", ";
+}
+
+
+.review_name::after, .member_name::after{
+	content: ": ";
+}
+
+
+/* note about citation */
+.note{
+	color: black;
+	font-size: 90%;
+}
+
+.note p{
+	display: inline-block;
+	padding-left: 15px;
+	margin-left: 15px;
+}
+
+.note a{
+	text-decoration: none;
+}
+
+.note a span{
+	color: blue;
+}

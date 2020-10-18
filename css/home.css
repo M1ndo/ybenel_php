@@ -1,0 +1,78 @@
+#nav_home{
+	font-size: 110%;
+	font-style: italic;
+}
+
+section{
+	font-size: 95%;
+}
+
+.header_title{
+	margin-bottom: 0px;
+	font-size: 110%;
+}
+
+.block_wrapper {
+	display: block;
+	height:65px;
+	border-width: 1px;
+	border-style: solid;
+	padding: 10px;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+.block_div_title {
+	float:left;
+	text-align:center;
+	margin-top: 12px;
+}
+
+.block_div_image {
+	height: 60px;
+	float:left;
+	text-align:center;
+}
+
+.block_div_detail {
+	float:left
+}
+
+.block_period {
+	display: block;
+	margin-top: 2px;
+}
+
+.block_img {
+	float: left;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px;
+}
+
+.block_research {
+	margin-left: 10px;
+}
+
+.block_institution {
+	display: block;
+	font-weight: bold;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.block_advisor_modifier {
+	font-size: 95%;
+}
+
+.block_advisor_link {
+	margin-left: 5px;
+	text-decoration: none!important;
+}
+
+.listP{
+	margin-left: 20px;
+	margin-top: 5px;
+	margin-bottom: 0px;
+}
